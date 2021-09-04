@@ -27,5 +27,4 @@ for (let a = 0; a < rodadas; a++) {
      console.log(`❮❮ ${listajogos[0].rod} ❯❯ O maior valor é 🡆  ${listajogos[0].numero}  ★ ★ ★  ${listajogos[0].nome} ★ ★ ★ `)  
      console.log();   
 
-
 }
