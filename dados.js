@@ -1,7 +1,15 @@
 const prompt = require('prompt-sync')();
+console.log();
+console.log();
+console.log("🎲 Seja Bem-vindo ao jogo de DADOS 🎲")
+console.log();
+console.log("========================");
+console.log(" ➥  Press  🎲 ENTER 🎲 ");
+console.log("========================");
+prompt();
 
-jogadores = +prompt("Digite o número de jogadores ➞ ");
-rodadas = +prompt("Digite o número de rodadas ➞ ");
+jogadores = +prompt("• Digite o número de jogadores ➞ ");
+rodadas = +prompt("• Digite o número de rodadas ➞ ");
 //console.log(); 
 console.log("======================================================");
 for (let a = 0; a < rodadas; a++) {
@@ -24,7 +32,8 @@ for (let a = 0; a < rodadas; a++) {
     }
      console.log(listajogos);   
      console.log(); 
-     console.log(`❮❮ ${listajogos[0].rod} ❯❯ O maior valor é 🡆  ${listajogos[0].numero}  ★ ★ ★  ${listajogos[0].nome} ★ ★ ★ `)  
+     console.log(`❮❮ ${listajogos[0].rod} ❯❯ 🎲 🡆  ${listajogos[0].numero}  ★ ★ 🏆 ${listajogos[0].nome} 🏆 ★ ★  `)  
      console.log();   
+
 
 }
